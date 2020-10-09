@@ -61,7 +61,7 @@ function App() {
 			//All the data from the country response
 			setCountryInfo(data);
 			setMapCenter([data.countryInfo.lat, data.countryInfo.long]);
-			setMapZoom(4);
+			setMapZoom(5);
 		})
 		.catch((err) => {
 			console.log(err);
